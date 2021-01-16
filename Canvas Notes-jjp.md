@@ -1,7 +1,7 @@
 # Canvas Notes
 
-任务名称：Canvas
-官方文档：https://github.com/instructure/canvas-lms/wiki/Production-Start
+任务名称：Canvas  
+官方文档：https://github.com/instructure/canvas-lms/wiki/Production-Start  
 支持平台：Debian家族 | Kubernetes | Docker
 
 任务提交者：蒋金朋
@@ -616,20 +616,20 @@ sudo systemctl enable redis-server
 
 ### 路径
 
-- 程序路径：
-  canvas：/var/canvas/
-  apache：/usr/sbin/apache2
-  postgresql：/var/lib/postgresql/9.5/main
-  redis：/etc/redis/
-- 日志路径：
-  canvas：/var/canvas/log
-  apache：/var/log/apache2/canvas_errors.log，/var/log/apache2/canvas_access.log
-  postgresql：/etc/postgresql/9.5/main/pg_log
-  redis：/var/log/redis/redis-server.log
-- 配置文件路径：
-  canvas：/var/canvas/config
-  apache：/etc/apache2/sites-enabled/canvas.conf
-  postgresql：/etc/postgresql/9.5/main/postgresql.conf
+- 程序路径：  
+  canvas：/var/canvas/  
+  apache：/usr/sbin/apache2  
+  postgresql：/var/lib/postgresql/9.5/main  
+  redis：/etc/redis/ 
+- 日志路径：  
+  canvas：/var/canvas/log  
+  apache：/var/log/apache2/canvas_errors.log，/var/log/apache2/canvas_access.log  
+  postgresql：/etc/postgresql/9.5/main/pg_log  
+  redis：/var/log/redis/redis-server.log 
+- 配置文件路径：  
+  canvas：/var/canvas/config  
+  apache：/etc/apache2/sites-enabled/canvas.conf  
+  postgresql：/etc/postgresql/9.5/main/postgresql.conf  
   redis：/etc/redis/redis.conf
 
 ### 账号密码
@@ -638,11 +638,11 @@ sudo systemctl enable redis-server
 
 - 数据库安装方式：包管理安装
 
-- 账号密码：
-  账号：postgres
-  密码：P@ssw0rd
-  账号：canvas1
-  密码：P@ssw0rd
+- 账号密码：  
+  账号：postgres  
+  密码：P@ssw0rd  
+  账号：canvas1  
+  密码：P@ssw0rd  
 
 - 密码修改方案
 
@@ -670,8 +670,8 @@ sudo systemctl enable redis-server
 
 - 登录地址：https://34.92.107.145/
 
-- 账号密码：
-  账号：3089476870@qq.com
+- 账号密码：  
+  账号：3089476870@qq.com  
   密码：websoft9
 
 - 密码修改方案
